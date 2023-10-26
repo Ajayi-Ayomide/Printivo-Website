@@ -1,0 +1,284 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  /* overflow-y: hidden; */
+  overflow-x: hidden;
+}
+
+.cost{
+    border-bottom: 2px solid black;
+    position:fixed;
+    z-index: 1;
+    background-color: #f7f6f4;
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+    width: 100%;
+}
+
+.cost a{
+    text-decoration: none;
+    margin:10px;
+}
+
+nav a{
+  text-decoration: none;margin: 10px;
+}
+nav {margin-left:500px ;
+}
+
+.need{
+  position: relative;
+  bottom: 20px;
+  left: 300px;
+}
+
+.top{
+    background-color: #ece8d9;
+    width: auto;
+    height: 500px;
+}
+
+.one{
+   position: relative;
+   left: 30px;
+   top: 15px;
+   width: 30px;
+}
+
+.two{
+    position: relative;
+  left: 100px;
+  border:1px solid gray ;
+  padding: 10px;
+  border-radius: 30px;
+  top: 10px;
+
+}
+
+.help{
+    position: relative;
+  right: 50px;
+  top: 10px;
+}
+.help a{
+font-weight: bold;
+color: lightblue;
+}
+
+.card{
+    display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.pt{
+    position: relative;
+    right: 400px;
+}
+
+.pt h1{
+    font-size: 45px;
+    /* position: relative;
+  top: 100px; */
+  /* width: 100%; */
+}
+fieldset{
+    width: 300px;
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    box-sizing: border-box;
+}
+.move{
+  background-color:#f3b1cd;
+  color: solid black;
+  padding: 10px;
+}
+.pop{
+  display: flex;
+  gap: 50%;
+}
+.pop  h1{
+  position: relative;
+  margin-left: 30px;
+  padding-left: 30px;
+}
+.pop p{
+  position: relative;
+ color: pink;
+}
+
+.cards{
+  background-color:white;
+  display: flex;
+  padding-top: 30px;
+  gap: 20px;
+  width: 100%px;
+  margin-left: 20px; 
+}
+.business{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.flyer{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.round{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.mug{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.card2{
+  display: flex;
+  padding: 10px 0 0 10px;
+  gap: 15px;
+  width: 500px;
+  box-sizing: border-box;
+}
+.post{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.roll{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.poster{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.trifold{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.land{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.off{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.A4{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.greeting{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.sticker{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.h3{
+  text-decoration: bold;
+}
+.group{
+  padding-top: 50px;
+  background-color:white;
+  padding-left: 40px;
+  margin-left: 200px;
+}
+.group img{
+  padding-right: 20px;
+  position: center;
+}
+.what{
+  background-color: #ecf5fc;
+  padding-top: 10px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  position: relative;
+  bottom: 30px;
+}
+.say{
+  background-color:#ecf5fc;
+  padding-left: 30px;
+  padding-top: 20px;
+  justify-content: center;
+}
+.amina{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+  padding-left: 30px;
+  box-sizing:border-box;
+}
+.oluwa{
+  box-ordinal-group: 10px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.you{
+  padding-top: 40px;
+  background-color:whitesmoke;
+  padding-left: 30px;
+  display: flex;
+  gap: 70px;
+  padding: 30px;
+  padding-left: 200px;
+}
+.fast{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.qua{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.afor{
+  box-sizing: border-box;
+  background-color: white;
+  padding: 10px;
+}
+.work{
+  display: flex;
+  margin: 30px;
+  gap: 50px;
+}
+.our{
+  padding: 50px;
+}
+.read{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px;
+  line-height: 1.50;
+}
+.futa{
+  background-color:#394B62;
+  display: flex;
+  gap: 150px;
+  color: white;
+  justify-content: center;
+}
+.futa div ul li{
+list-style-type: none;
+line-height: 1.50;
+font-size: 20px;
+}
